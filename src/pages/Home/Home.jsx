@@ -7,7 +7,13 @@ export default function Home() {
     <div>
       <Navbar />
       <div className={styles.homePage}>
-        <h1 className={styles.loremTitle}>Lorem ipsum dolor sit amet</h1>
+        <h1 className={styles.loremTitle}>Lorem ipsum dolor sit amet</h1><br />
+        <input
+          type="text"
+          placeholder="Search..."
+          className={styles.searchInput}
+        />
+        <button className={styles.searchButton}>Search</button>
       </div>
     </div>
   );
