@@ -1,7 +1,6 @@
 About The Project
 
-You will need to create 1 page with a mobile responsive layout.  Below are the requirements:
-
+We needed to create 1 page with a mobile responsive layout.  Below are the requirements:
  
 
 The digital team would like to prototype a solution that resembles the wireframe provided to us.
