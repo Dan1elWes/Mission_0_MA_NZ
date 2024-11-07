@@ -1,53 +1,53 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-  }
-  
-  .navbarLogo {
-    font-size: 20px;
-    font-weight: bold;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
 
-  .loginBtn {
-    cursor: pointer;
-    background-color: #fff;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  
-  .navbarLinks {
-    display: flex;
-    gap: 20px;
-    height: 30px;
-    align-items: center;
-  }
-  
+.navbarLogo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginBtn {
+  cursor: pointer;
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navbarLinks {
+  display: flex;
+  gap: 20px;
+  height: 30px;
+  align-items: center;
+}
+
+.navbarToggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 600px) {
   .navbarToggle {
-    display: none; 
-    font-size: 1.5rem;
-    background: none;
-    border: none;
+    display: block; /* Show toggle button on smaller screens */
   }
 
-  @media (max-width: 700px) {
-    .navbarToggle {
-      display: block; /* Show toggle button on smaller screens */
-    }
-    
-    .navbarLinks {
-      display: none; /* Hide links by default on smaller screens */
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #fff;
-      padding: 1rem;
-    }
-  
-    .navbarLinks.open {
-      display: flex; 
-    }
+  .navbarLinks {
+    display: none; /* Hide links by default on smaller screens */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
   }
+
+  .navbarLinks.open {
+    display: flex;
+  }
+}

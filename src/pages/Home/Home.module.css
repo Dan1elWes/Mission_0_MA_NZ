@@ -1,0 +1,100 @@
+.homePage {
+  background-image: url("./Images/homeBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+}
+
+.loremTitle {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.9);
+  padding-top: 30px;
+  padding-left: 25px;
+  height: fit-content;
+  width: 325px;
+}
+
+.searchInput {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  padding: 10px;
+  outline: none;
+  height: 35px;
+  width: 350px;
+}
+
+.searchButton {
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 10px;
+  height: 57.42px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #555;
+}
+
+.searchBar {
+  justify-self: center;
+  padding-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .loremTitle {
+    justify-self: center;
+  }
+
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .searchInput {
+    width: 305px;
+  }
+
+  .searchButton {
+    width: 328px;
+  }
+}
+
+.moreImages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.catOne {
+  height: 270px;
+  width: 360px;
+}
+
+.catTwo {
+  height: 270px;
+  width: 360px;
+}
+
+.catHug {
+  height: 270px;
+  width: 360px;
+}
+
+.imageTitles {
+  background-color: #726c6c;
+}
+
+.imageText {
+  background-color: #726c6c;
+}
