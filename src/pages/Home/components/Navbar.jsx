@@ -14,7 +14,7 @@ export default function Navbar() {
       <button className={styles.navbarToggle} onClick={toggleMenu}>
       &#9776;
       </button>
-      <div className={styles.navbarLinks}>
+      <div className={`${styles.navbarLinks} ${menuOpen ? styles.open : ''}`}>
         <p>Menu1</p>
         <p>Menu2</p>
         <p>Menu3</p>
