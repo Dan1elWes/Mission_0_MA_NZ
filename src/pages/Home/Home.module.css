@@ -67,3 +67,33 @@
     width: 328px;
   }
 }
+
+.moreImages {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.catOne {
+  height: 270px;
+  width: 360px;
+}
+
+.catTwo {
+  height: 270px;
+  width: 360px;
+}
+
+.catHug {
+  height: 270px;
+  width: 360px;
+}
+
+.imageTitles {
+  background-color: #726c6c;
+}
+
+.imageText {
+  background-color: #726c6c;
+}

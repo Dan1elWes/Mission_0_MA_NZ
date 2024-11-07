@@ -17,6 +17,35 @@ export default function Home() {
           <button className={styles.searchButton}>Search</button>
         </div>
       </div>
+      <div className={styles.moreImages}>
+        <div>
+          <img
+            className={styles.catOne}
+            src="./Images/cat1.jpg"
+            alt="placeholder"
+          />
+          <h2 className={styles.imageTitles}>Lorem ipsum</h2>
+          <p className={styles.imageText}>Est venenatls</p>
+        </div>
+        <div>
+          <img
+            className={styles.catTwo}
+            src="./Images/cat2.jpg"
+            alt="placeholder"
+          />
+          <h2 className={styles.imageTitles}>Lorem ipsum</h2>
+          <p className={styles.imageText}>Est venenatls</p>
+        </div>
+        <div>
+          <img
+            className={styles.catHug}
+            src="./Images/catHug.jpg"
+            alt="placeholder"
+          />
+          <h2 className={styles.imageTitles}>Lorem ipsum</h2>
+          <p className={styles.imageText}>Est venenatls</p>
+        </div>
+      </div>
     </div>
   );
 }
