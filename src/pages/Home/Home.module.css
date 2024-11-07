@@ -1,0 +1,6 @@
+.homePage {
+    background-color: rgb(196, 196, 196);
+    background-image: url('./public/Images/homeBackground.jpg');
+    background-size: cover;
+    background-position: center;
+}
